@@ -27,9 +27,29 @@ p {
 
 .day {
     padding: 10px;
-    background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 14px;
     font-weight: bold;
+    text-align: center;
+}
+.jan {background-color: #FFDDC1;}
+.feb {background-color: #FFD1DC;}
+.mar {background-color: #7805EB;}
+.apr {background-color: #FFC3A0;}
+.may {background-color: #FF9A76;}
+.jun {background-color: #FFC857;}
+.jul {background-color: #E0BBE4;}
+.aug {background-color: #D5AAFF;}
+.sep {background-color: #85E3FF;}
+.oct {background-color: #A7FF83;}
+.nov {background-color: #F3B0C3;}
+.dec {background-color: #FFA500;}
+
+.today{
+    background-color:red;
+    color: black;
+    font-size: bold;
+    border: 2x solid #900;
+    box-shadow: 0 0 10px rbg (255, 0, 0, 0.5);
 }
